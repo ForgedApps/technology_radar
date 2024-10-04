@@ -11,5 +11,7 @@
   "dependencies": {
     "@forge/resolver": "1.5.40"
   },
-  "workspaces": ["static/component-page"]
+  "workspaces": [
+    "static/component-page"
+  ]
 }
