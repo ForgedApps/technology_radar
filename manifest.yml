@@ -1,16 +1,22 @@
 modules:
+  compass:globalPage:
+    - key: tech-radar
+      resource: techradar
+      resolver:
+        function: techradar
+      title: Tech Radar
   compass:componentPage:
     - key: tech-radar
-      resource: component
+      resource: techradar
       resolver:
-        function: component
+        function: techradar
       title: Tech Radar
   function:
-    - key: component
-      handler: component-page.run
+    - key: techradar
+      handler: techradar-page.run
 resources:
-  - key: component
-    path: static/component-page/out
+  - key: techradar
+    path: static/techradar-page/out
     tunnel:
       port: 3000
 permissions:

@@ -28,7 +28,7 @@
     ]
   },
   "include": [
-    "static/component-page/src/next-env.d.ts",
+    "static/techradar-page/src/next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"

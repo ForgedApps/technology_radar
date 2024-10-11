@@ -1,5 +1,5 @@
 {
-  "name": "tech-radar-for-compass",
+  "name": "tech-radar-for-compass-page",
   "version": "1.4.4",
   "bin": {
     "techradar": "./bin/techradar.js"

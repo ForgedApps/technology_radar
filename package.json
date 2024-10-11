@@ -1,17 +1,15 @@
 {
-  "name": "tech-radar-for-compass-component-page",
+  "name": "tech-radar-for-compass",
   "version": "1.4.4",
   "scripts": {
     "forge-dev": "forge tunnel",
-    "dev": "yarn workspace tech-radar-for-compass dev",
-    "start": "yarn workspace tech-radar-for-compass start",
-    "build": "yarn workspace tech-radar-for-compass build && yarn workspace tech-radar-for-compass postinstall",
+    "dev": "yarn workspace tech-radar-for-compass-page dev",
+    "start": "yarn workspace tech-radar-for-compass-page start",
+    "build": "yarn workspace tech-radar-for-compass-page build && yarn workspace tech-radar-for-compass-page postinstall",
     "deploy": "forge deploy && forge install -p Compass -s forgedapps-dev.atlassian.net -e development --confirm-scopes --upgrade && yarn dev"
   },
   "dependencies": {
     "@forge/resolver": "1.5.40"
   },
-  "workspaces": [
-    "static/component-page"
-  ]
+  "workspaces": ["static/techradar-page"]
 }
