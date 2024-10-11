@@ -7352,17 +7352,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tech-radar-for-compass-component-page@workspace:.":
+"tech-radar-for-compass-page@workspace:static/techradar-page":
   version: 0.0.0-use.local
-  resolution: "tech-radar-for-compass-component-page@workspace:."
-  dependencies:
-    "@forge/resolver": "npm:1.5.40"
-  languageName: unknown
-  linkType: soft
-
-"tech-radar-for-compass@workspace:static/component-page":
-  version: 0.0.0-use.local
-  resolution: "tech-radar-for-compass@workspace:static/component-page"
+  resolution: "tech-radar-for-compass-page@workspace:static/techradar-page"
   dependencies:
     "@atlaskit/css-reset": "npm:^6.6.2"
     "@biomejs/biome": "npm:^1.9.3"
@@ -7395,6 +7387,14 @@ __metadata:
     typescript: "npm:^5"
   bin:
     techradar: ./bin/techradar.js
+  languageName: unknown
+  linkType: soft
+
+"tech-radar-for-compass@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "tech-radar-for-compass@workspace:."
+  dependencies:
+    "@forge/resolver": "npm:1.5.40"
   languageName: unknown
   linkType: soft
 

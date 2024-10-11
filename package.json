@@ -11,5 +11,7 @@
   "dependencies": {
     "@forge/resolver": "1.5.40"
   },
-  "workspaces": ["static/techradar-page"]
+  "workspaces": [
+    "static/techradar-page"
+  ]
 }
